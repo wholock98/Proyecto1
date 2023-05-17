@@ -1,0 +1,19 @@
+
+      .banner {
+        background-color: #F5F5F5; 
+        height: 50px;
+        width: 100%;
+      }
+      .logo {
+        height: 100%;
+        padding-left: 10px; 
+      }
+
+      .avatar-text {
+        display: flex;
+        align-items: center;
+      }
+
+      
+
+
