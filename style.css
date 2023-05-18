@@ -1,18 +1,171 @@
 
+    body {
+      background-image: url(https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-9.jpg);
+      background-position: center;
+    }
+
       .banner {
         background-color: #F5F5F5; 
-        height: 50px;
+        height: 70px;
         width: 100%;
       }
       .logo {
         height: 100%;
-        padding-left: 10px; 
+        padding-left: 10px;
+        float: left;
       }
 
-      .avatar-text {
+      .equipo {
+        text-align: center;
+        padding-top: 15px;
+        font-size: 25px;
+        color:blue;
+        font-family: fantasy;
+        margin-top: 10px;
+      }
+      .integrantes {
+        text-align: center;
+        color:yellowgreen;
+        font-family: fantasy;
+        font-size: 23px;
+        margin-left: -100%;
+      }
+       .avatares {
+        padding-left: 50%;
+        
+
+      }
+    
+       .avatar:hover {
+        height: 133px;
+        width: 400px;
+        margin-left: -50px;
+      }
+
+      .a_nombre {
+        padding-left: 20%;
+        color: red;
+        font-size: 20px;
+        font-family: fantasy;
+        padding-top: 80px;
+      }
+
+      .avatar_text {
+        padding-left: 50%;
+        color: red;
+        font-size: 16px;
+        font-family: fantasy;
+
+      }
+
+      #avatar1 {
+        float: left;
+        
+      }
+
+      #avatar2 {
+        height: 100px;
+        float: right;
+        
+      }
+
+      #avatar3 {
+        height: 100px;
+        float: right;
+        
+        
+      }
+     
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-left: -50%;
+      
+
+      }
+
+      table, td {
+        border: 1px solid black;
+        padding: 15px;
+        border: #F5F5F5;
+        
+      }
+
+      .herr {
+        color: green;
+        font-family: fantasy;
+        text-align: center;
+      }
+    
+      .container {
         display: flex;
+      }
+
+      li {
+        list-style: inside;
+      }
+      .pro {
+        flex: 1;
+        text-align: center;
+        color:greenyellow;
+        font-size: 20px;
+        font-family: fantasy;
+      }
+
+      #webs {
+        color:mediumspringgreen;
+        
+      }
+
+
+
+      .caja{
+        width: 600px;
+        height: 150px;
+        margin-left:0.75%;
+        border: 3px solid;
+        ;
+        
+        
+        
+      }
+
+      .zapato {
+        width: 600px;
+        height: 150px;
         align-items: center;
       }
+
+      .descuento {
+        color:limegreen;
+        font-size: 20px;
+        font-family: fantasy;
+        text-align: center;
+      }
+
+
+      .footer {
+        background-color:rgb(86, 86, 112);
+        height:250px;
+        width: 306%;
+        font-size: 35px;
+        text-align: center;
+
+      }
+
+      .logofooter{
+        height: 100%;
+        width: 150px;
+       margin-right: 1300px;
+       
+       }
+
+       
+      
+
+
+
 
       
 
