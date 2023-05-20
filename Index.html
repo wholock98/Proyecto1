@@ -1,46 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-image: url("https://img.freepik.com/fotos-premium/fondo-tienda-conveniencia-supermercado-tablero-perspectiva-madera-beige_42708-1356.jpg?w=2000") ;
-        }
-    </style>
-    <title>Proyecto 1</title>
-</head>
-<body>
-    <header>
-    <aside class="responsive-banner">
-        <span class="circle-a"></span>
-        <span class="circle-b"></span>
-        <img src="banner.jpg" width= 1490px height= 200px />
-        <div class="container-envelope">
-    </aside>
-    <img src="logo.png" align="left" width=200px height=400px style="margin-top: -20%; position: absolute;">
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    
+  </head>
+  <body>
+    <main class="banner">
+      <img src="logo.png" class="logo" />
+    <p class="equipo">Equipo TARDIS</p>
+    </main>
+    
+    <div class="avatares">
+    <h4 class="integrantes">Integrantes</h4>
+    <table>
+    <tr>
+      <td>
+        <img src="avatar 1.png" class="avatar" id="avatar1" />
+        <p class="a_nombre">Guillermo Llausas</p>
+        <p class="avatar_text">Master</p>
+    
+      <td>
+        <img src="avatar 2.jpg" class="avatar" id="avatar2" />
+        <p class="a_nombre">Iván Rullo</p>
+        <p class="avatar_text">Junior</p>
+      </td>
+      <td>
+        <img src="Image20230518122506.jpg" class="avatar" id="avatar3" />
+        <p class="a_nombre">Txema Blanco</p>
+        <p class="avatar_text">Junior 2</p>
+      </td>
+    </tr>
+    </table>
+    </div>
+    <br> <br>
     <br>
     <br>
     <br>
     <br>
     <br>
-    <h1 style="text-align: center; margin-top: -28%;">Guillermo Llausas y Iván Rullo</h1>
-    <h3 STYLE="text-align: center;">PISANDO FUERTE</h3>
-</header>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h4>Integrantes</h4>
-        <img src="avatar 1.png">
-         <p>Guillermo Llausas</p>
-        <img src="avatar 2.jpg" width="20%">
-         <p>Iván Rullo</p>
-        
- 
+    <div class="acc">
+    <h3 class="herr">Herramientas</h3>
 
 
+      <div class="container">
+      <section class="pro">
+        <p>Programas</p>
+        <ol>
+          <li>GitHub</li>
+          <li>Visual Studio Code</li>
+          <li>Figma</li>
+        </ol>
+      </section>
+      
+      <section class="pro" id="webs">
+        <p>WEBs</p>
+        <ol>
+          <li><a href="https://www.w3schools.com"> w3schools.com</a></li>
+          <li><a href="figma.com">figma.com</a></li>
+        </ol>
+      </section>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="caja">
+      
+      <img  src="zapato.jpg" class="zapato">
+      <p class="descuento">Zapatos a medida al 30% de descuento</p>
+      
+      <div id="contenedor">
+    <div class = "footer">
+      <footer>
+        <br>
+        <p class="copyright">Copyright © 2023.</p>
+        <p class="equipo">Equipo Tardis</p>
+        <img src="logo.png" class="logofooter"/>
 
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
+
