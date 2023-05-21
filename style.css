@@ -1,172 +1,179 @@
 
-    body {
-      background-image: url(https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-9.jpg);
-      background-position: center;
-    }
+body {
+  background-image: url("https://images.alphacoders.com/511/511052.jpg");
+  background-position: center;
+}
 
-      .banner {
-        background-color: #F5F5F5; 
-        height: 70px;
-        width: 100%;
-      }
-      .logo {
-        height: 100%;
-        padding-left: 10px;
-        float: left;
-      }
+.b_inicio {
+  background-image: url("https://previews.123rf.com/images/peshkov/peshkov1710/peshkov171000003/87331457-tel%C3%B3n-de-fondo-digital-abstracto-con-c%C3%B3digo-binario-software-y-concepto-de-programaci%C3%B3n.jpg");
+  height:30%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  padding-top: 50px;
+}
 
-      .equipo {
-        text-align: center;
-        padding-top: 15px;
-        font-size: 25px;
-        color:blue;
-        font-family: fantasy;
-        margin-top: 10px;
-      }
-      .integrantes {
-        text-align: center;
-        color:yellowgreen;
-        font-family: fantasy;
-        font-size: 23px;
-        margin-left: -100%;
-      }
-       .avatares {
-        padding-left: 50%;
-        
-
-      }
+  .logo {
+    height: 100px;
+    width: 100px;
     
-       .avatar:hover {
-        height: 133px;
-        width: 400px;
-        margin-left: -50px;
-      }
-
-      .a_nombre {
-        padding-left: 20%;
-        color: red;
-        font-size: 20px;
-        font-family: fantasy;
-        padding-top: 80px;
-      }
-
-      .avatar_text {
-        padding-left: 50%;
-        color: red;
-        font-size: 16px;
-        font-family: fantasy;
-
-      }
-
-      #avatar1 {
-        float: left;
-        
-      }
-
-      #avatar2 {
-        height: 100px;
-        float: right;
-        
-      }
-
-      #avatar3 {
-        height: 100px;
-        float: right;
-        
-        
-      }
-     
-
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-left: -50%;
-      
-
-      }
-
-      table, td {
-        border: 1px solid black;
-        padding: 15px;
-        border: #F5F5F5;
-        
-      }
-
-      .herr {
-        color: green;
-        font-family: fantasy;
-        text-align: center;
-      }
     
-      .container {
-        display: flex;
-      }
+  }
 
-      li {
-        list-style: inside;
-      }
-      .pro {
-        flex: 1;
-        text-align: center;
-        color:greenyellow;
-        font-size: 20px;
-        font-family: fantasy;
-      }
+  .equipo {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+  }
+  .integrantes {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+  }
+   .avatares {
+    padding-left: 50%;
+    border-style: dotted;
+    border-radius: 50px;
+    
+  }
 
-      #webs {
-        color:mediumspringgreen;
-        
-      }
+   .avatar:hover {
+    height: 133px;
+    width: 400px;
+  }
+
+  .a_nombre {
+    padding-left: 20%;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 80px;
+  }
+
+  .avatar_text {
+    padding-left: 50%;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  #avatar1 {
+    float: left;
+    
+  }
+
+  #avatar2 {
+    height: 100px;
+    float: right;
+    
+  }
+
+  #avatar3 {
+    height: 100px;
+    float: right;
+    
+    
+  }
+ 
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: -50%;
+  }
+
+  table, td {
+    border: 1px solid black;
+    padding: 15px;
+    border: #F5F5F5;
+    
+  }
+
+  .herr {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    border-style: double;
+  }
+
+  li {
+    list-style: inside;
+  }
+  .pro {
+    flex: 1;
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  #webs {
+    color:black;
+    
+  }
 
 
 
-      .caja{
-        width: 600px;
-        height: 150px;
-        margin-left:0.75%;
-        border: 3px solid;
-        ;
-        
-        
-        
-      }
+  .caja{
+    width: 600px;
+    height: 150px;
+    margin-left:0.75%;
+    border: 3px solid;
+  }
+  
+  .banner {
+    background-image: url("https://fondos-animados.com/gifs/2013/08/minions1.gif");
+    height:177px;
+    width: ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    padding-top: 50px;
 
-      .zapato {
-        width: 600px;
-        height: 150px;
-        align-items: center;
-      }
+  }
 
-      .descuento {
-        color:limegreen;
-        font-size: 20px;
-        font-family: fantasy;
-        text-align: center;
-      }
+  .footer {
+    width: 100%;
+    height: 100px;
+    background-image: url("https://media.tenor.com/MOaDdK_RVaAAAAAd/winter-vtuber-fondo-winter-vtuber.gif");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+  }
 
+  .logofooter{
+    height: 100%;
+    width: 60px;
+    margin-right: 1280px;
+    margin-top: -150px;
+   
+   }
 
-      .footer {
-        background-color:rgb(86, 86, 112);
-        height:250px;
-        width: 306%;
-        font-size: 35px;
-        text-align: center;
-
-      }
-
-      .logofooter{
-        height: 100%;
-        width: 150px;
-       margin-right: 1300px;
-       
-       }
-
-       
-      
+   
+  
 
 
 
 
-      
+  
 
 
